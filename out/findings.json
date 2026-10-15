@@ -1,0 +1,176 @@
+{
+  "rows_raw": 981,
+  "rows_dedup": 934,
+  "rows_reported": 894,
+  "rows_unreported": 40,
+  "dup_rows": 94,
+  "dup_task_ids": 47,
+  "dup_all_succeeded": false,
+  "fail_total": 95,
+  "fail_rate_all": 0.10626398210290827,
+  "stale_n": 261,
+  "stale_share": 0.29194630872483224,
+  "stale_fail": 81,
+  "stale_fail_rate": 0.3103448275862069,
+  "fresh_n": 633,
+  "fresh_fail": 14,
+  "fresh_fail_rate": 0.022116903633491312,
+  "stale_share_of_failures": 0.8526315789473684,
+  "rel_risk": 14.032019704433498,
+  "stale_fail_ci": [
+    0.25730922463436745,
+    0.36888243105718554
+  ],
+  "fresh_fail_ci": [
+    0.013219365922317919,
+    0.03677988035807583
+  ],
+  "max_lag_fresh": 18.0,
+  "min_lag_stale": 22.0,
+  "fisher_p": 1.1450702708703551e-33,
+  "fisher_odds_ratio": 0.050260276431520375,
+  "chi2_p": 2.2516041269738983e-36,
+  "lag_hist_0_25": {
+    "0": 35,
+    "1": 29,
+    "2": 33,
+    "3": 36,
+    "4": 42,
+    "5": 37,
+    "6": 37,
+    "7": 36,
+    "8": 26,
+    "9": 31,
+    "10": 28,
+    "11": 25,
+    "12": 48,
+    "13": 39,
+    "14": 23,
+    "15": 32,
+    "16": 35,
+    "17": 31,
+    "18": 30,
+    "19": 0,
+    "20": 0,
+    "21": 0,
+    "22": 6,
+    "23": 8,
+    "24": 7,
+    "25": 7
+  },
+  "slots_fresh_mean": 14.849921011058452,
+  "slots_stale_mean": 14.547892720306514,
+  "slots_mwu_p": 0.6395527936141965,
+  "corr_lag_slots": -0.021996541434191642,
+  "auc_free_slots": 0.5352150714709176,
+  "auc_lag": 0.8187471181081615,
+  "auc_duration": 0.5902048613398326,
+  "corr_dur_ok": -0.09264244838837786,
+  "by_cluster": {
+    "cluster_east": {
+      "stale_n": 62,
+      "stale_fail": 21,
+      "stale_rate": 0.3387096774193548,
+      "stale_ci": [
+        0.2334153463018197,
+        0.46282532828689016
+      ],
+      "fresh_n": 147,
+      "fresh_fail": 0,
+      "fresh_rate": 0.0
+    },
+    "cluster_north": {
+      "stale_n": 77,
+      "stale_fail": 33,
+      "stale_rate": 0.42857142857142855,
+      "stale_ci": [
+        0.32403475215621097,
+        0.5398966890819635
+      ],
+      "fresh_n": 165,
+      "fresh_fail": 2,
+      "fresh_rate": 0.012121212121212121
+    },
+    "cluster_south": {
+      "stale_n": 70,
+      "stale_fail": 26,
+      "stale_rate": 0.37142857142857144,
+      "stale_ci": [
+        0.2677048160082965,
+        0.4885301518147193
+      ],
+      "fresh_n": 159,
+      "fresh_fail": 5,
+      "fresh_rate": 0.031446540880503145
+    },
+    "cluster_west": {
+      "stale_n": 52,
+      "stale_fail": 1,
+      "stale_rate": 0.019230769230769232,
+      "stale_ci": [
+        0.0034027204090655225,
+        0.10120746268024422
+      ],
+      "fresh_n": 162,
+      "fresh_fail": 7,
+      "fresh_rate": 0.043209876543209874
+    }
+  },
+  "west_stale_n": 52,
+  "west_stale_fail": 1,
+  "west_stale_rate": 0.019230769230769232,
+  "other_stale_rate": 0.3827751196172249,
+  "west_binom_p": 4.2152602559538467e-10,
+  "west_vs_other_fisher_p": 1.8057391181254353e-08,
+  "west_lag_min_mwu_p": 0.12325334489520257,
+  "west_slots_mwu_p": 0.5390712663923225,
+  "west_dur_mwu_p": 0.3883848166143071,
+  "jobmix_chi2_p": 0.26212181587281924,
+  "durmix_chi2_p": 0.3705052428536827,
+  "oot_train": {
+    "stale_rate": 0.3402777777777778,
+    "stale_n": 144,
+    "fresh_rate": 0.02997275204359673,
+    "fresh_n": 367
+  },
+  "oot_test": {
+    "stale_rate": 0.27350427350427353,
+    "stale_n": 117,
+    "fresh_rate": 0.011278195488721776,
+    "fresh_n": 266
+  },
+  "loo": {
+    "cluster_east": {
+      "stale_rate": 0.3015075376884422,
+      "stale_n": 199,
+      "fresh_rate": 0.028806584362139898,
+      "fresh_n": 486
+    },
+    "cluster_north": {
+      "stale_rate": 0.26086956521739135,
+      "stale_n": 184,
+      "fresh_rate": 0.02564102564102566,
+      "fresh_n": 468
+    },
+    "cluster_south": {
+      "stale_rate": 0.2879581151832461,
+      "stale_n": 191,
+      "fresh_rate": 0.01898734177215189,
+      "fresh_n": 474
+    },
+    "cluster_west": {
+      "stale_rate": 0.3827751196172249,
+      "stale_n": 209,
+      "fresh_rate": 0.014861995753715496,
+      "fresh_n": 471
+    }
+  },
+  "nan_stale_share": 0.325,
+  "nan_fisher_p": 0.7227463853916056,
+  "worst_case_fail_rate": 0.14453961456102785,
+  "option_a_saved_min": 5642.061611374407,
+  "option_a_expected_failures": 19.77251184834123,
+  "option_b_saved_min": 3465.0,
+  "option_bprime_saved_min": 3910.0,
+  "degrade_breakeven_min": 23.275862068965516
+}
